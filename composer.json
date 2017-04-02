@@ -1,6 +1,6 @@
 {
     "name": "ashwani23/tweet-bucket",
-    "description": "Small PHP API Client aiming at fetching tweets with hashtag #cutserv and are re-tweeted at least once",
+    "description": "Small PHP API Client aiming at fetching tweets with hashtag #custserv and are re-tweeted at least once",
     "minimum-stability": "dev",
     "license": "proprietary",
     "authors": [

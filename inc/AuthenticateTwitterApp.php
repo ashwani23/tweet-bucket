@@ -1,10 +1,13 @@
 <?php
 /**
-  * Tweets
+  * AuthenticateTwitterApp.php
   *
   * @author     Ashwani Goyal <ashwanigoyal@outlook.in>
   */
 
+/*
+ * TweetBag Utility Package for App
+ */
 namespace TweetBag;
 
 use Abraham\TwitterOAuth\TwitterOAuth;
@@ -13,7 +16,10 @@ use Dotenv\Dotenv;
 if(!class_exists('AuthenticateTwitterApp')){
 
     /**
+     *  AuthenticateTwitterApp
+     *
      *  Authenticating Twitter App with APP Credentials provided in .env
+     *  @package TweetBag
      */
     class AuthenticateTwitterApp
     {
@@ -75,7 +81,11 @@ if(!class_exists('AuthenticateTwitterApp')){
                     $this->accessTokenSecret
                 );
             } catch(Exception $e) {
-                echo "Execption Occured in ".__METHOD__.": ".$e->getMessage(); exit;
+
+                /*
+                 * Exit from App if Authentication Fails while writing a message
+                 */
+                echo "Execption Occured in ".__METHOD__.": ".$e->getMessage().". You are requested to reach us at admin@example.com.";
             }
         }
     }
