@@ -19,3 +19,7 @@ Small PHP API Client aiming at fetching tweets with hashtag #cutserv and are re-
 * Add your API secrets in ``.env``
 * Open your favorite browser and navigate to http://localhost/
 * All the tweets will be displayed
+
+## Screenshots
+
+![Tweets List](/screenshots/screenhot-1.png?raw=true "Tweets List")
