@@ -12,3 +12,6 @@ Loading ENV Parameters
  */
 $dotenv = new Dotenv\Dotenv(__DIR__);
 $dotenv->load();
+
+$tweets = new \TweetBag\AuthenticateTwitterApp();
+$tweets->authenticate();
