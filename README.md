@@ -22,4 +22,4 @@ Small PHP API Client aiming at fetching tweets with hashtag #cutserv and are re-
 
 ## Screenshots
 
-![Tweets List](/screenshots/screenhot-1.png?raw=true "Tweets List")
+![Tweets List](/screenshots/screenshot-1.png?raw=true "Tweets List")
