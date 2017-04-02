@@ -1,0 +1,17 @@
+{
+    "name": "ashwani23/tweet-bucket",
+    "description": "Small PHP API Client aiming at fetching tweets with hashtag #cutserv and are re-tweeted at least once",
+    "minimum-stability": "dev",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Ashwani Goyal",
+            "email": "ashwanigoyal@outlook.in"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "4.7.x-dev",
+        "abraham/twitteroauth": "0.5.1",
+        "vlucas/phpdotenv": "^2.4"
+    }
+}
