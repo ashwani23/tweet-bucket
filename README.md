@@ -9,7 +9,7 @@ Small PHP API Client aiming at fetching tweets with hashtag #cutserv and are re-
 
 * Server PHP version must be greater than or equal to 5.6.30
 * [Composer](https://getcomposer.org/), a PHP Dependency Manager must be installed
-* [NPM](https://www.npmjs.com/)
+* [NPM](https://www.npmjs.com/), a JS Dependency Manager must be installed
 
 ### Getting Started
 
@@ -17,5 +17,5 @@ Small PHP API Client aiming at fetching tweets with hashtag #cutserv and are re-
 * Run ``composer install`` from command line and verify that you have got ``/vendor`` as new directory and ``.env`` file are created in document root.
 * Run ``npm install`` from command line and verify that you have got ``/node_modules`` as new directory in root.
 * Add your API secrets in ``.env``
-* Open your favorite browser and navigate to http://localhost/<DOCUMENT ROOT>/
+* Open your favorite browser and navigate to http://localhost/
 * All the tweets will be displayed
