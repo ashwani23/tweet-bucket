@@ -1,0 +1,26 @@
+{
+  "name": "tweet-bucket",
+  "version": "1.0.0",
+  "description": "Small PHP API Client aiming at fetching tweets with hashtag #cutserv and are re-tweeted at least once",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashwani23/tweet-bucket.git"
+  },
+  "keywords": [
+    "twitter",
+    "API",
+    "Client",
+    "PHP",
+    "PHPUNIT"
+  ],
+  "author": "Ashwani Goyal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashwani23/tweet-bucket/issues"
+  },
+  "homepage": "https://github.com/ashwani23/tweet-bucket#readme"
+}
