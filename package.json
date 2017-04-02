@@ -12,10 +12,8 @@
   },
   "keywords": [
     "twitter",
-    "API",
-    "Client",
-    "PHP",
-    "PHPUNIT"
+    "API Client",
+    "PHP"
   ],
   "author": "Ashwani Goyal",
   "license": "ISC",
