@@ -1,9 +1,9 @@
 # tweet-bucket
-Small PHP API Client aiming at fetching tweets with hashtag #custserv and are re-tweeted at least once
+Small PHP API Client aiming at fetching tweets with hashtag #cutserv and are re-tweeted at least once
 
 ### Features
 
-* To list all the tweets which have hashtag #custserv and are re-tweeted at least once
+* To list all the tweets which have hashtag #cutserv and are re-tweeted at least once
 
 ### Dependencies
 
@@ -17,3 +17,5 @@ Small PHP API Client aiming at fetching tweets with hashtag #custserv and are re
 * Run ``composer install`` from command line and verify that you have got ``/vendor`` as new directory and ``.env`` file are created in document root.
 * Run ``npm install`` from command line and verify that you have got ``/node_modules`` as new directory in root.
 * Add your API secrets in ``.env``
+* Open your favorite browser and navigate to http://localhost/<DOCUMENT ROOT>/
+* All the tweets will be displayed
